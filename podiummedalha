@@ -1,0 +1,12 @@
+function podiummedalha(pontos) {
+    if (pontos=== 3) {
+        caixaPrincipal.computedStyleMap.backgroudImage = "url('img/bronge.png')";
+        caixaPerguntas.textContent = "Resultado da competição: 3 pontos  é BRONZE !";
+    } else if (pontos === 4){
+        caixaPrincipal.computedStyleMap.backgroudImage = "url('img/prata.png')";
+        caixaPerguntas.computedStyleMap.textContent = "Resultado da competição: 4 pontos é PRATA!";
+    } else if (pontos == 5) {
+         caixaPrincipal.computedStyleMap.backgroudImage = "url('img/ouro.png')";
+        caixaPerguntas.computedStyleMap.textContent = "Resultado da competição: 5 pontos é OURO!"
+    }
+}
