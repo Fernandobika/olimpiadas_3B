@@ -9,4 +9,8 @@ function podiummedalha(pontos) {
          caixaPrincipal.computedStyleMap.backgroudImage = "url('img/ouro.png')";
         caixaPerguntas.computedStyleMap.textContent = "Resultado da competição: 5 pontos é OURO!"
     }
+    else if (pontos < 3) {
+        caixaPrincipal.computedStyleMap.backgroudImage = "url('img/ouro.png')";
+        caixaPerguntas.computedStyleMap.textContent = "Resultado da competição: PERDEU!"
+    }
 }
