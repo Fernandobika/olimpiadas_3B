@@ -57,7 +57,7 @@ function mostraResultado(){
     caixaPerguntas.textContent = "Resultado";
     caixaAlternativas.textContent = "";
     // chame a função podiumMedalhas aqui
-    
+    podiumMedalhas();
 }
 
 //crie uma função podiumMedalhas
